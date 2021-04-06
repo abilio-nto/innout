@@ -3,7 +3,7 @@
 require_once(realpath(MODEL_PATH."/Models.php"));
 
 class Users extends Models{
-    protected static $tablename = '';
+    protected static $tablename = 'Users';
     protected static $columns = [
         'id',
         'name',
