@@ -1,6 +1,6 @@
 <?php
 
-require_once(realpath(MODEL_PATH."/Models.php"));
+
 
 class Users extends Models{
     protected static $tablename = 'Users';
